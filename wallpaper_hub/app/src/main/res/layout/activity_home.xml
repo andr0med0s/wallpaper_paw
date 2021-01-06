@@ -23,11 +23,16 @@
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
+    <include layout="@layout/content_main"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        app:itemIconTint="@color/bottom_nav_item"
+        app:itemTextColor="@color/bottom_nav_item"
         android:background="@color/colorPrimary"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        app:menu="@menu/nav_menu">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
