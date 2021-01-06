@@ -5,5 +5,7 @@
     <color name="colorAccent">#888071</color>
 
     <color name="colorTitle">#cecece</color>
+    <color name="colorNavDefault">#8b8a8a</color>
+    <color name="colorNavActive">#fafafa</color>
 
 </resources>
