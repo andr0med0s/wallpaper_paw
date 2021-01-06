@@ -22,9 +22,6 @@ android {
     }
 }
 
-ext{
-    support_library_version = '1.2.0'
-}
 
 
 dependencies {
