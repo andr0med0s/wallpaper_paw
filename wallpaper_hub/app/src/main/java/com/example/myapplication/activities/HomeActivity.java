@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import com.example.myapplication.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import fragments.HomeFragment;
+import com.example.myapplication.fragments.HomeFragment;
 
 public class HomeActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 

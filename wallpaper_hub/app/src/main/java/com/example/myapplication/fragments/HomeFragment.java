@@ -1,4 +1,4 @@
-package fragments;
+package com.example.myapplication.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.activities.adapters.CategoriesAdapter;
+import com.example.myapplication.adapters.CategoriesAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,9 +22,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
-import models.Category;
+import com.example.myapplication.models.Category;
 
 
 public class HomeFragment extends Fragment {

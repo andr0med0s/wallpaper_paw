@@ -1,4 +1,4 @@
-package models;
+package com.example.myapplication.models;
 
 public class Category {
     public String name, desc, thumb;
