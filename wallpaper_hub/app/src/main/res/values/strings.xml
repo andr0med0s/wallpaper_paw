@@ -4,5 +4,7 @@
     <string name="nav_home">Home</string>
     <string name="nav_favorites">Favourites</string>
     <string name="nav_settings">Settings</string>
-    <string name="string_not_signed_in">Oops! You have to sign in first...</string>
+    <string name="string_not_signed_in">Oops! You have to sign in first…</string>
+    <string name="logout">Logout</string>
+    <string name="default_web_client" translatable="false">118033404114-i82shk0iu9a2o05llutnql7ckn5jnvck.apps.googleusercontent.com</string>
 </resources>

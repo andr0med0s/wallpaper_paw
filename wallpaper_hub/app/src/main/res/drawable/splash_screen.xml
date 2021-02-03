@@ -7,7 +7,7 @@
     <item
         android:width="325dp"
         android:height="200dp"
-        android:bottom="15dp"
+        android:bottom="250dp"
         android:drawable="@drawable/ic_asset_1"
         android:gravity="bottom|center_horizontal"
         />

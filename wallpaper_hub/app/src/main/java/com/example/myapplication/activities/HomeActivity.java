@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.myapplication.R;
+import com.example.myapplication.fragments.FaforitesFragment;
 import com.example.myapplication.fragments.SettingsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -43,7 +44,7 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
                 fragment = new HomeFragment();
                 break;
             case R.id.nav_fav:
-                fragment = new HomeFragment();
+                fragment = new FaforitesFragment();
                 break;
             case R.id.nav_set:
                 fragment = new SettingsFragment();
